@@ -11,7 +11,7 @@
     steam-acf
     webcamoid
     google-chrome
-    firefox-beta
+    firefox
     protonup-qt
     protontricks
     # heroic
