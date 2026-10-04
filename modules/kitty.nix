@@ -7,7 +7,7 @@ _: {
     };
     settings = {
       confirm_os_window_close = 0;
-      background_opacity = 0.3;
+      background_opacity = 0.0;
       # background = "#000088";
     };
   };
