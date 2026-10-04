@@ -2,14 +2,14 @@ _: {
   programs.starship = {
     enable = true;
     settings = {
-      format = "[┌─{](dimmed blue) \${custom.rain8ow-hostname}\${custom.hostname}$hostname / $sudo$username [}─\\[$directory$nix_shell$package$rust$nodejs$haskell$gradle$java$kotlin\\]\${env_var.DIRENV_DIFF}─>](dimmed blue)\n[└─>](dimmed blue) $jobs";
+      format = "[┌─{](bold blue) \${custom.rain8ow-hostname}\${custom.hostname}$hostname / $sudo$username [}─\\[$directory$nix_shell$package$rust$nodejs$haskell$gradle$java$kotlin\\]\${env_var.DIRENV_DIFF}─>](bold blue)\n[└─>](bold blue) $jobs";
       right_format = "$git_branch$git_commit$git_metrics$git_state$git_status";
 
       directory.format = "[$path]($style)[$read_only]($read_only_style)";
 
       env_var.DIRENV_DIFF = {
         symbol = "DIRENV";
-        format = "[[-\\[](dimmed blue)$symbol[\\]](dimmed blue)]($style)";
+        format = "[[-\\[](bold blue)$symbol[\\]](bold blue)]($style)";
         description = "Direnv Diff in Environment";
         style = "dimmed white";
       };
@@ -22,7 +22,7 @@ _: {
 
       git_branch = {
         format = " [$symbol$branch(:$remote_branch)]($style)";
-        style = "dimmed blue";
+        style = "bold blue";
       };
 
       git_state.format = " \\([$state( $progress_current/$progress_total)]($style)\\)";
@@ -102,7 +102,7 @@ _: {
       };
 
       kotlin = {
-        style = "dimmed blue";
+        style = "bold blue";
         format = " [$symbol($version)]($style)";
       };
 
