@@ -53,7 +53,6 @@ in {
 
     boot = {
       tmp.cleanOnBoot = true;
-      initrd.verbose = false;
       consoleLogLevel = 3;
 
       kernelParams = baseParams ++ optionals config.performance.insecureDisableMitigations mitigationParams;
