@@ -31,6 +31,7 @@ in {
 
     packages = with pkgs;
       [
+        texliveFull.fonts
         lmodern # LaTeX
         noto-fonts
         noto-fonts-cjk-sans
