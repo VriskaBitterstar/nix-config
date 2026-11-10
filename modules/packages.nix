@@ -49,7 +49,7 @@
 
     # openssl-1.1.1w marked insecure
     discord-ptb
-    vesktop # Discord Alt Client
+    # vesktop # Discord Alt Client
     slack
     teams-for-linux
     vscode
