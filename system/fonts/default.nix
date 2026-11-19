@@ -32,7 +32,7 @@ in {
     packages = with pkgs;
       [
         texliveFull.fonts
-        lmodern # LaTeX
+        lmodern # LaTe\X
         noto-fonts
         noto-fonts-cjk-sans
         noto-fonts-color-emoji
