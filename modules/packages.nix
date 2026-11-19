@@ -47,8 +47,8 @@
     texliveFull
     prismlauncher
 
-    # openssl-1.1.1w marked insecure
-    discord-ptb
+    discord
+    # discord-ptb
     # vesktop # Discord Alt Client
     fluxer-canary-bin
     slack
